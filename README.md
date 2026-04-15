@@ -73,7 +73,7 @@ Area,Bedrooms,Age,Price
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/house-price-prediction-ml.git
+git clone https://github.com/finiaks/house-price-prediction-ml.git
 ```
 
 ---
