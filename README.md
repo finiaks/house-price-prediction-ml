@@ -2,17 +2,23 @@
 
 ## 📌 Project Overview
 
-This project predicts **house prices** based on multiple features such as **area, number of bedrooms, and age of the house** using a **Linear Regression model**. It demonstrates how machine learning can handle real-world problems with multiple inputs.
+This project predicts house prices based on features such as area, number of bedrooms, and age of the house using a Linear Regression model.
+
+It also includes an interactive web application built with Streamlit, allowing users to input house details and get real-time price predictions.
+
+The project demonstrates a complete machine learning workflow, including data preprocessing, feature scaling, model training, and deployment through a user-friendly interface.
 
 ---
 
 ## 🚀 Features
 
-- Multi-feature Linear Regression model
-- Feature scaling using StandardScaler
-- Prediction system for new user input
-- Model and scaler saving using joblib
-- Clean and structured project architecture
+- Multi-feature house price prediction using Linear Regression
+- Data preprocessing and feature scaling using StandardScaler
+- Interactive web application built with Streamlit
+  Real-time predictions with user-friendly input interface
+- Model persistence using joblib (model + scaler)
+- Supports both CLI and web-based prediction
+- Modular and clean project structure
 
 ---
 
@@ -33,6 +39,9 @@ house-price-prediction/
 │
 ├── data/
 │   └── house.csv
+│
+├── frontend_ui/
+│   └── app.py      # Streamlit web app for UI-based prediction
 │
 ├── model/
 │   ├── house_pricing_pred_model.pkl
@@ -120,6 +129,13 @@ Predicted Price: 64153
 
 ---
 
+## 🌐 Run Web App
+
+```bash
+streamlit run src/app.py
+
+---
+
 ## ⚠️ Important Notes
 
 - Input data is scaled before prediction
@@ -134,6 +150,7 @@ Predicted Price: 64153
 - Pandas
 - Scikit-learn
 - Joblib
+- Streamlit
 
 ---
 
@@ -141,7 +158,6 @@ Predicted Price: 64153
 
 - Add more features (location, floor, amenities)
 - Use larger real-world dataset
-- Build web app using Streamlit
 - Deploy model online
 
 ---
@@ -155,3 +171,4 @@ This project shows how machine learning can be used to predict house prices usin
 ## 👨‍💻 Author
 
 Akshay Prakash
+```
