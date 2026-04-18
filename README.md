@@ -184,7 +184,3 @@ This project shows how machine learning can be used to predict house prices usin
 ## 👨‍💻 Author
 
 Akshay Prakash
-
-```
-
-```
