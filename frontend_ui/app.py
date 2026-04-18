@@ -3,8 +3,8 @@ import pandas as pd
 import joblib as job
 
 #Load Model and Scaler
-model = job.load("../model/house_pricing_pred_model.pkl")
-scaler = job.load("../model/scaler.pkl")
+model = job.load("model/house_pricing_pred_model.pkl")
+scaler = job.load("model/scaler.pkl")
 
 #Title
 st.set_page_config(page_title = "House Price Predictor", page_icon = "🏠")
