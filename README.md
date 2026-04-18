@@ -132,7 +132,21 @@ Predicted Price: 64153
 ## 🌐 Run Web App
 
 ```bash
-streamlit run src/app.py
+streamlit run frontend_ui/app.py
+
+```
+
+---
+
+## 🌐 Live Demo
+
+https://house-pricingpredictor.streamlit.app/
+
+---
+
+## 📸 Screenshot of App
+
+![House Pricing Predictor](images/screenshot_of_app.png)
 
 ---
 
@@ -158,7 +172,6 @@ streamlit run src/app.py
 
 - Add more features (location, floor, amenities)
 - Use larger real-world dataset
-- Deploy model online
 
 ---
 
@@ -171,4 +184,7 @@ This project shows how machine learning can be used to predict house prices usin
 ## 👨‍💻 Author
 
 Akshay Prakash
+
+```
+
 ```
